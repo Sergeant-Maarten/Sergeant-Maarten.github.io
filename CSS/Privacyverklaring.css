@@ -1,0 +1,2848 @@
+/* Algemeen */
+    .html {
+        scroll-behavior: smooth;
+    }
+    
+    .main {
+        height: 2140px;
+    }
+
+/* Lijnen */
+    .Verticale-lijn {
+        position: absolute;
+        border-left: 3px solid #f97373;
+        left: 1522px;
+        right: 398px;
+        top: 244px;
+        bottom: 41px;
+        height: 802px;
+    }
+    
+    .Horizontale-lijn {
+        position: absolute;
+        left: 1627px;
+        right: 163px;
+        top: 88px;
+        bottom: 972px;
+        border: none;
+        height: 3px;
+        background-color: #f97373;
+        margin: 20px 0;
+        width: 133px;
+      }
+
+/* Header */
+    /* Afbeeldingen */
+        .Logo {
+            position: absolute;
+            left: 67px;
+            top: 65px;
+            bottom: 955px;
+            right: 1573px;
+            width: 260px;
+            height: 56px;
+        }
+    /* Navigatiebalk */
+        #open-menu-button{
+            display: none;
+        }
+
+        #close-menu-button{
+            display: none;
+        }
+
+        #fullscreen-menu{
+            display: none;
+        }
+        
+        .Welkom-nav {
+            position: absolute;
+            left: 506px;
+            top: 85px;
+            bottom: 976px;
+            right: 1354px;
+            width: 60px;
+            height: 19px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+
+        .Welkom-nav:hover{
+            text-decoration: underline;
+            text-underline-offset: 10px;
+            text-decoration-color: #f97373;
+            text-decoration-thickness: 3px;
+        }
+
+        .Ligging-nav {
+            position: absolute;
+            left: 639px;
+            top: 85px;
+            bottom: 976px;
+            right: 1225;
+            width: 56px;
+            height: 19px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+
+        .Ligging-nav:hover{
+            text-decoration: underline;
+            text-underline-offset: 10px;
+            text-decoration-color: #f97373;
+            text-decoration-thickness: 3px;
+        }
+        
+        .Contact-nav {
+            position: absolute;
+            left: 768px;
+            top: 85px;
+            bottom: 976px;
+            right: 1091px;
+            width: 61px;
+            height: 19px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+
+        .Contact-nav:hover{
+            text-decoration: underline;
+            text-underline-offset: 10px;
+            text-decoration-color: #f97373;
+            text-decoration-thickness: 3px;
+        }
+        
+        .Kalender-nav {
+            position: absolute;
+            left: 902px;
+            top: 85px;
+            bottom: 976px;
+            right: 950px;
+            width: 68px;
+            height: 19px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Kalender-nav:hover{
+            text-decoration: underline;
+            text-underline-offset: 10px;
+            text-decoration-color: #f97373;
+            text-decoration-thickness: 3px;
+        }
+
+        .Historiek-nav {
+            position: absolute;
+            left: 1043px;
+            top: 85px;
+            bottom: 976px;
+            right: 809px;
+            width: 68px;
+            height: 19px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+
+        .Historiek-nav:hover{
+            text-decoration: underline;
+            text-underline-offset: 10px;
+            text-decoration-color: #f97373;
+            text-decoration-thickness: 3px;
+        }
+        
+        .Fotos-nav {
+            position: absolute;
+            left: 1184px;
+            top: 85px;
+            bottom: 976px;
+            right: 692px;
+            width: 44px;
+            height: 19px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+
+        .Fotos-nav:hover{
+            text-decoration: underline;
+            text-underline-offset: 10px;
+            text-decoration-color: #f97373;
+            text-decoration-thickness: 3px;
+        }
+        
+        .Aansluiten-nav {
+            position: absolute;
+            left: 1301px;
+            top: 85px;
+            bottom: 976px;
+            right: 540px;
+            width: 79px;
+            height: 19px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+
+        .Aansluiten-nav:hover{
+            text-decoration: underline;
+            text-underline-offset: 10px;
+            text-decoration-color: #f97373;
+            text-decoration-thickness: 3px;
+        }
+        
+        .Openingsuren-nav {
+            position: absolute;
+            left: 1453px;
+            top: 85px;
+            bottom: 976px;
+            right: 361px;
+            width: 106px;
+            height: 19px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+
+        .Openingsuren-nav:hover{
+            text-decoration: underline;
+            text-underline-offset: 10px;
+            text-decoration-color: #f97373;
+            text-decoration-thickness: 3px;
+        }
+        
+        .Privacyverklaring-nav {
+            position: absolute;
+            left: 1632px;
+            top: 85px;
+            bottom: 2042px;
+            right: 158px;
+            width: 130px;
+            height: 19px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: underline;
+            text-underline-offset: 10px;
+            text-decoration-color: #f97373;
+            text-decoration-thickness: 3px;
+        }
+
+        
+
+/* Article */
+    /* Afbeeldingen */
+        
+    /* Privacyverklaring */
+        .Privacyverklaring-Titel {
+            position: absolute;
+            left: 67px;
+            top: 237px;
+            bottom: 1844px;
+            right: 1676px;
+            width: 177px;
+            height: 65px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            Font-size: 20px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Algemeen {
+            position: absolute;
+            left: 67px;
+            top: 300px;
+            bottom: 1781px;
+            right: 1754px;
+            width: 99px;
+            height: 65px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Tekst1 {
+            position: absolute;
+            left: 67px;
+            top: 338px;
+            bottom: 1516px;
+            right: 415px;
+            width: 1438px;
+            height: 292px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Waarom {
+            position: absolute;
+            left: 67px;
+            top: 710px;
+            bottom: 1371px;
+            right: 1479px;
+            width: 374px;
+            height: 65px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Tekst2 {
+            position: absolute;
+            left: 67px;
+            top: 737px;
+            bottom: 1307px;
+            right: 963px;
+            width: 890px;
+            height: 102px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Welke {
+            position: absolute;
+            left: 67px;
+            top: 840px;
+            bottom: 1238px;
+            right: 1562px;
+            width: 291px;
+            height: 65px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Tekst3 {
+            position: absolute;
+            left: 67px;
+            top: 879px;
+            bottom: 1165px;
+            right: 877px;
+            width: 976px;
+            height: 102px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Wie {
+            position: absolute;
+            left: 67px;
+            top: 995px;
+            bottom: 1086px;
+            right: 1606px;
+            width: 247px;
+            height: 65px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Tekst4 {
+            position: absolute;
+            left: 67px;
+            top: 1022px;
+            bottom: 1022px;
+            right: 963px;
+            width: 890px;
+            height: 102px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Verstrekking {
+            position: absolute;
+            left: 67px;
+            top: 1106px;
+            bottom: 975px;
+            right: 1622px;
+            width: 231px;
+            height: 65px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Tekst5 {
+            position: absolute;
+            left: 67px;
+            top: 1142px;
+            bottom: 900px;
+            right: 415px;
+            width: 1438px;
+            height: 102px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Minderjarigen {
+            position: absolute;
+            left: 67px;
+            top: 1345px;
+            bottom: 790px;
+            right: 1713px;
+            width: 140px;
+            height: 65px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Tekst6 {
+            position: absolute;
+            left: 67px;
+            top: 1380px;
+            bottom: 664px;
+            right: 531px;
+            width: 1322px;
+            height: 102px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Bewaartermijn {
+            position: absolute;
+            left: 67px;
+            top: 1414px;
+            bottom: 667px;
+            right: 1707px;
+            width: 146px;
+            height: 65px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Tekst7 {
+            position: absolute;
+            left: 67px;
+            top: 1450px;
+            bottom: 594px;
+            right: 457px;
+            width: 1396px;
+            height: 102px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Beveiliging {
+            position: absolute;
+            left: 67px;
+            top: 1500px;
+            bottom: 581px;
+            right: 1590px;
+            width: 263px;
+            height: 65px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Tekst8 {
+            position: absolute;
+            left: 67px;
+            top: 1535px;
+            bottom: 509px;
+            right: 700px;
+            width: 1153px;
+            height: 102px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Rechten {
+            position: absolute;
+            left: 67px;
+            top: 1700px;
+            bottom: 381px;
+            right: 1565px;
+            width: 288px;
+            height: 65px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Tekst9 {
+            position: absolute;
+            left: 67px;
+            top: 1735px;
+            bottom: 30s5px;
+            right: 415px;
+            width: 1438px;
+            height: 106px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Klachten {
+            position: absolute;
+            left: 67px;
+            top: 1825px;
+            bottom: 254px;
+            right: 1741px;
+            width: 112px;
+            height: 65px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Tekst10 {
+            position: absolute;
+            left: 67px;
+            top: 1858px;
+            bottom: 186px;
+            right: 819px;
+            width: 1034px;
+            height: 102px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Wijziging {
+            position: absolute;
+            left: 67px;
+            top: 1988px;
+            bottom: 93px;
+            right: 1596px;
+            width: 257px;
+            height: 65px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Privacyverklaring-Tekst11 {
+            position: absolute;
+            left: 67px;
+            top: 2029px;
+            bottom: 58px;
+            right: 963px;
+            width: 890px;
+            height: 59px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+/* Aside */
+    /* Afbeeldingen */
+        .BBQ {
+            position: absolute;
+            left: 1548px;
+            top: 538px;
+            bottom: 317px;
+            right: 72px;
+            width: 300px;
+            height: 225px;
+        }
+
+        .Clubkampioenschap-Volwassenen {
+            position: absolute;
+            left: 1548px;
+            top: 820px;
+            bottom: 91px;
+            right: 72px;
+            width: 300px;
+            height: 225px;
+        }
+    /* Activiteiten */
+        .Activiteiten-Nieuwe-Titel {
+            position: absolute;
+            left: 1548px;
+            top: 225px;
+            bottom: 801px;
+            right: 44px;
+            width: 328px;
+            height: 74px;
+            font-family: "Inter-ExtraBold", Helvetica;
+            font-weight: 800;
+            color: #f97373;
+            Font-size: 16px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .Activiteiten-Nieuwe-Tekst {
+            position: absolute;
+            left: 1548px;
+            top: 277px;
+            bottom: 615px;
+            right: 44px;
+            width: 328px;
+            height: 188px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #000000;
+            Font-size: 16px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .Activiteiten-Oude-Titel {
+            position: absolute;
+            left: 1548px;
+            top: 420px;
+            bottom: 604px;
+            right: 44px;
+            width: 328px;
+            height: 188px;
+            font-family: "Inter-ExtraBold", Helvetica;
+            font-weight: 800;
+            color: #f97373;
+            Font-size: 16px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+        
+        .Activiteiten-Oude-Tekst1 {
+            position: absolute;
+            left: 1548px;
+            top: 490px;
+            bottom: 542px;
+            right: 44px;
+            width: 328px;
+            height: 48px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            Font-size: 16px;
+            letter-spacing: 0;
+            line-height: normal;
+        }
+
+        .Activiteiten-Oude-Tekst2 {
+            position: absolute;
+            left: 1548px;
+            top: 772px;
+            bottom: 260px;
+            right: 44px;
+            width: 328px;
+            height: 48px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #000000;
+            Font-size: 16px;
+            letter-spacing: 0;
+            line-height: normal;
+          }
+
+/* Footer */
+    .footer {
+        text-align: center;
+        align-items: center;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-bottom: -16px;
+        margin-top: -16px;
+        border: none;
+        background-color: #514e4e;
+        padding: 20px;
+    }
+    
+    .Privacyverklaring-footer {
+        font-family: "Inter-Regular", Helvetica;
+        font-weight: 400;
+        color: white;
+        Font-size: 16px;
+        text-decoration: none;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .Privacyverklaring-footer a {
+        font-family: "Inter-Regular", Helvetica;
+        font-weight: 400;
+        color: white;
+        Font-size: 16px;
+        text-decoration: none;
+        align-items: center;
+    }
+
+/* Extra pagina's */
+    .Start-To-Pingpong-nav {
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #f97373;
+        Font-size: 16px;
+        text-decoration: none;
+    }
+    
+    .Kleutersport-nav {
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #f97373;
+        Font-size: 16px;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+/* Maximale schermbreedte van 1536 */
+@media screen and (max-width:1536px)
+{
+    /* Algemeen */
+        .html {
+            scroll-behavior: smooth;
+        }
+        
+        .main {
+            height: 2660px;
+        }
+
+    /* Lijnen */
+        .Verticale-lijn {
+            position: absolute;
+            border-left: 3px solid #f97373;
+            left: 1167px;
+            right: 375px;
+            top: 262px;
+            bottom: 42px;
+            height: 724px;
+        }
+        
+        .Horizontale-lijn {
+            position: absolute;
+            left: 403px;
+            right: 1071px;
+            top: 109px;
+            bottom: 1033px;
+            border: none;
+            height: 3px;
+            background-color: #f97373;
+            margin: 20px 0;
+            width: 130px;
+        }
+
+    /* Header */
+        /* Afbeeldingen */
+            .Logo {
+                position: absolute;
+                left: 57px;
+                top: 65px;
+                bottom: 979px;
+                right: 1209px;
+                width: 260px;
+                height: 56px;
+            }
+        /* Navigatiebalk */
+            #open-menu-button{
+                display: none;
+            }
+
+            #close-menu-button{
+                display: none;
+            }
+
+            #fullscreen-menu{
+                display: none;
+            }
+
+            .Welkom-nav {
+                position: absolute;
+                left: 408px;
+                top: 65px;
+                bottom: 1016px;
+                right: 1068px;
+                width: 60px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Ligging-nav {
+                position: absolute;
+                left: 541px;
+                top: 65px;
+                bottom: 1016px;
+                right: 939px;
+                width: 56px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Contact-nav {
+                position: absolute;
+                left: 670px;
+                top: 65px;
+                bottom: 1016px;
+                right: 805px;
+                width: 61px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Kalender-nav {
+                position: absolute;
+                left: 804px;
+                top: 65px;
+                bottom: 664px;
+                right: 1016px;
+                width: 68px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Historiek-nav {
+                position: absolute;
+                left: 945px;
+                top: 65px;
+                bottom: 1016px;
+                right: 523px;
+                width: 68px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Fotos-nav {
+                position: absolute;
+                left: 1086px;
+                top: 65px;
+                bottom: 1016px;
+                right: 406px;
+                width: 44px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Aansluiten-nav {
+                position: absolute;
+                left: 1203px;
+                top: 65px;
+                bottom: 1016px;
+                right: 254px;
+                width: 79px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Openingsuren-nav {
+                position: absolute;
+                left: 1340px;
+                top: 65px;
+                bottom: 1016px;
+                right: 90px;
+                width: 106px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-nav {
+                position: absolute;
+                left: 408px;
+                top: 106px;
+                bottom: 975px;
+                right: 998px;
+                width: 130px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: underline;
+                text-underline-offset: 10px;
+                text-decoration-color: #f97373;
+                text-decoration-thickness: 3px;
+            }
+
+            .hidden{
+                display: none;
+            }
+
+            #button{
+                display: none;
+            }
+
+    /* Article */
+        /* Afbeeldingen */
+            
+        /* Privacyverklaring */
+            .Privacyverklaring-Titel {
+                position: absolute;
+                left: 67px;
+                top: 237px;
+                bottom: 1844px;
+                right: 1676px;
+                width: 980px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 20px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Algemeen {
+                position: absolute;
+                left: 67px;
+                top: 300px;
+                bottom: 1781px;
+                right: 1754px;
+                width: 980px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst1 {
+                position: absolute;
+                left: 67px;
+                top: 338px;
+                bottom: 1516px;
+                right: 415px;
+                width: 980px;
+                height: 292px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Waarom {
+                position: absolute;
+                left: 67px;
+                top: 860px;
+                bottom: 1371px;
+                right: 1479px;
+                width: 980px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst2 {
+                position: absolute;
+                left: 67px;
+                top: 900px;
+                bottom: 1307px;
+                right: 963px;
+                width: 980px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Welke {
+                position: absolute;
+                left: 67px;
+                top: 1010px;
+                bottom: 1238px;
+                right: 1562px;
+                width: 980px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst3 {
+                position: absolute;
+                left: 67px;
+                top: 1050px;
+                bottom: 1165px;
+                right: 877px;
+                width: 980px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Wie {
+                position: absolute;
+                left: 67px;
+                top: 1180px;
+                bottom: 1100px;
+                right: 1606px;
+                width: 980px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst4 {
+                position: absolute;
+                left: 67px;
+                top: 1220px;
+                bottom: 1022px;
+                right: 963px;
+                width: 980px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Verstrekking {
+                position: absolute;
+                left: 67px;
+                top: 1310px;
+                bottom: 975px;
+                right: 1622px;
+                width: 980px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst5 {
+                position: absolute;
+                left: 67px;
+                top: 1350px;
+                bottom: 900px;
+                right: 415px;
+                width: 980px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Minderjarigen {
+                position: absolute;
+                left: 67px;
+                top: 1640px;
+                bottom: 790px;
+                right: 1713px;
+                width: 980px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst6 {
+                position: absolute;
+                left: 67px;
+                top: 1680px;
+                bottom: 664px;
+                right: 531px;
+                width: 980px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Bewaartermijn {
+                position: absolute;
+                left: 67px;
+                top: 1740px;
+                bottom: 667px;
+                right: 1707px;
+                width: 980px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst7 {
+                position: absolute;
+                left: 67px;
+                top: 1790px;
+                bottom: 594px;
+                right: 457px;
+                width: 980px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Beveiliging {
+                position: absolute;
+                left: 67px;
+                top: 1870px;
+                bottom: 581px;
+                right: 1590px;
+                width: 980px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst8 {
+                position: absolute;
+                left: 67px;
+                top: 1920px;
+                bottom: 509px;
+                right: 700px;
+                width: 980px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Rechten {
+                position: absolute;
+                left: 67px;
+                top: 2100px;
+                bottom: 381px;
+                right: 1565px;
+                width: 980px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst9 {
+                position: absolute;
+                left: 67px;
+                top: 2150px;
+                bottom: 305px;
+                right: 415px;
+                width: 980px;
+                height: 106px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Klachten {
+                position: absolute;
+                left: 67px;
+                top: 2300px;
+                bottom: 254px;
+                right: 1741px;
+                width: 980px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst10 {
+                position: absolute;
+                left: 67px;
+                top: 2350px;
+                bottom: 186px;
+                right: 819px;
+                width: 980px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Wijziging {
+                position: absolute;
+                left: 67px;
+                top: 2500px;
+                bottom: 93px;
+                right: 1596px;
+                width: 980px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst11 {
+                position: absolute;
+                left: 67px;
+                top: 2550px;
+                bottom: 58px;
+                right: 963px;
+                width: 980px;
+                height: 59px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+    /* Aside */
+        /* Afbeeldingen */
+            .BBQ {
+                position: absolute;
+                left: 1190px;
+                top: 476px;
+                bottom: 399px;
+                right: 46px;
+                width: 300px;
+                height: 225px;
+            }
+
+            .Clubkampioenschap-Volwassenen {
+                position: absolute;
+                left: 1190px;
+                top: 758px;
+                bottom: 42px;
+                right: 46px;
+                width: 300px;
+                height: 225px;
+            }
+        /* Activiteiten */
+            .Activiteiten-Nieuwe-Titel {
+                position: absolute;
+                left: 1190px;
+                top: 242px;
+                bottom: 784px;
+                right: 18px;
+                width: 328px;
+                height: 74px;
+                font-family: "Inter-ExtraBold", Helvetica;
+                font-weight: 800;
+                color: #f97373;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+            }
+            
+            .Activiteiten-Nieuwe-Tekst {
+                position: absolute;
+                left: 1190px;
+                top: 286px;
+                bottom: 754px;
+                right: 18px;
+                width: 328px;
+                height: 60px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+            }
+            
+            .Activiteiten-Oude-Titel {
+                position: absolute;
+                left: 1190px;
+                top: 377px;
+                bottom: 657px;
+                right: 18px;
+                width: 328px;
+                height: 66px;
+                font-family: "Inter-ExtraBold", Helvetica;
+                font-weight: 800;
+                color: #f97373;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+            }
+            
+            .Activiteiten-Oude-Tekst1 {
+                position: absolute;
+                left: 1190px;
+                top: 428px;
+                bottom: 624px;
+                right: 18px;
+                width: 328px;
+                height: 48px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+            }
+
+            .Activiteiten-Oude-Tekst2 {
+                position: absolute;
+                left: 1190px;
+                top: 710px;
+                bottom: 342px;
+                right: 18px;
+                width: 328px;
+                height: 48px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+            }
+
+    /* Footer */
+        .footer {
+            text-align: center;
+            align-items: center;
+            margin-left: -8px;
+            margin-right: -8px;
+            margin-bottom: -16px;
+            margin-top: -16px;
+            border: none;
+            background-color: #514e4e;
+            padding: 20px;
+        }
+        
+        .Privacyverklaring-footer {
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: white;
+            Font-size: 16px;
+            text-decoration: none;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .Privacyverklaring-footer a {
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: white;
+            Font-size: 16px;
+            text-decoration: none;
+            align-items: center;
+        }
+
+    /* Extra pagina's */
+        .Start-To-Pingpong-nav {
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #f97373;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Kleutersport-nav {
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #f97373;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+}
+
+
+
+
+
+
+
+
+
+/* Maximale schermbreedte van 1366 */
+@media screen and (max-width:1366px)
+{
+    /* Algemeen */
+        .html {
+            scroll-behavior: smooth;
+        }
+        
+        .main {
+            height: 2630px;
+        }
+
+    /* Lijnen */
+        .Verticale-lijn {
+            position: absolute;
+            border-left: 3px solid #f97373;
+            left: 1001px;
+            right: 365px;
+            top: 208px;
+            bottom: 48px;
+            height: 747px;
+        }
+        
+        .Horizontale-lijn {
+            position: absolute;
+            left: 565px;
+            right: 1071px;
+            top: 108px;
+            bottom: 1033px;
+            border: none;
+            height: 3px;
+            background-color: #f97373;
+            margin: 20px 0;
+            width: 131px;
+        }
+
+    /* Header */
+        /* Afbeeldingen */
+            .Logo {
+                position: absolute;
+                left: 57px;
+                top: 65px;
+                bottom: 979px;
+                right: 1209px;
+                width: 260px;
+                height: 56px;
+            }
+        /* Navigatiebalk */
+            #open-menu-button{
+                display: none;
+            }
+
+            #close-menu-button{
+                display: none;
+            }
+
+            #fullscreen-menu{
+                display: none;
+            }
+
+            .Welkom-nav {
+                position: absolute;
+                left: 408px;
+                top: 65px;
+                bottom: 938px;
+                right: 898px;
+                width: 60px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Ligging-nav {
+                position: absolute;
+                left: 541px;
+                top: 65px;
+                bottom: 938px;
+                right: 769px;
+                width: 56px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Contact-nav {
+                position: absolute;
+                left: 670px;
+                top: 65px;
+                bottom: 938px;
+                right: 635px;
+                width: 61px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Kalender-nav {
+                position: absolute;
+                left: 804px;
+                top: 65px;
+                bottom: 938px;
+                right: 494px;
+                width: 68px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Historiek-nav {
+                position: absolute;
+                left: 945px;
+                top: 65px;
+                bottom: 938px;
+                right: 353px;
+                width: 68px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Fotos-nav {
+                position: absolute;
+                left: 1086px;
+                top: 65px;
+                bottom: 938px;
+                right: 236px;
+                width: 44px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Aansluiten-nav {
+                position: absolute;
+                left: 1203px;
+                top: 65px;
+                bottom: 938px;
+                right: 84px;
+                width: 79px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Openingsuren-nav {
+                position: absolute;
+                left: 408px;
+                top: 106px;
+                bottom: 897px;
+                right: 852px;
+                width: 106px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-nav {
+                position: absolute;
+                left: 570px;
+                top: 106px;
+                bottom: 897px;
+                right: 666px;
+                width: 130px;
+                height: 19px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: underline;
+                text-underline-offset: 10px;
+                text-decoration-color: #f97373;
+                text-decoration-thickness: 3px;
+            }
+
+            .hidden{
+                display: none;
+            }
+
+            #button{
+                display: none;
+            }
+
+    /* Article */
+        /* Afbeeldingen */
+            
+        /* Privacyverklaring */
+            .Privacyverklaring-Titel {
+                position: absolute;
+                left: 67px;
+                top: 237px;
+                bottom: 1844px;
+                right: 1676px;
+                width: 940px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 20px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Algemeen {
+                position: absolute;
+                left: 67px;
+                top: 300px;
+                bottom: 1781px;
+                right: 1754px;
+                width: 890px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst1 {
+                position: absolute;
+                left: 67px;
+                top: 338px;
+                bottom: 1516px;
+                right: 415px;
+                width: 890px;
+                height: 292px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Waarom {
+                position: absolute;
+                left: 67px;
+                top: 860px;
+                bottom: 1371px;
+                right: 1479px;
+                width: 890px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst2 {
+                position: absolute;
+                left: 67px;
+                top: 900px;
+                bottom: 1307px;
+                right: 963px;
+                width: 890px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Welke {
+                position: absolute;
+                left: 67px;
+                top: 1010px;
+                bottom: 1238px;
+                right: 1562px;
+                width: 890px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst3 {
+                position: absolute;
+                left: 67px;
+                top: 1050px;
+                bottom: 1165px;
+                right: 877px;
+                width: 890px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Wie {
+                position: absolute;
+                left: 67px;
+                top: 1190px;
+                bottom: 1100px;
+                right: 1606px;
+                width: 890px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst4 {
+                position: absolute;
+                left: 67px;
+                top: 1220px;
+                bottom: 1022px;
+                right: 963px;
+                width: 890px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Verstrekking {
+                position: absolute;
+                left: 67px;
+                top: 1310px;
+                bottom: 975px;
+                right: 1622px;
+                width: 890px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst5 {
+                position: absolute;
+                left: 67px;
+                top: 1350px;
+                bottom: 900px;
+                right: 415px;
+                width: 890px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Minderjarigen {
+                position: absolute;
+                left: 67px;
+                top: 1650px;
+                bottom: 790px;
+                right: 1713px;
+                width: 890px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst6 {
+                position: absolute;
+                left: 67px;
+                top: 1680px;
+                bottom: 664px;
+                right: 531px;
+                width: 890px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Bewaartermijn {
+                position: absolute;
+                left: 67px;
+                top: 1740px;
+                bottom: 667px;
+                right: 1707px;
+                width: 890px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst7 {
+                position: absolute;
+                left: 67px;
+                top: 1780px;
+                bottom: 594px;
+                right: 457px;
+                width: 890px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Beveiliging {
+                position: absolute;
+                left: 67px;
+                top: 1860px;
+                bottom: 581px;
+                right: 1590px;
+                width: 890px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst8 {
+                position: absolute;
+                left: 67px;
+                top: 1900px;
+                bottom: 509px;
+                right: 700px;
+                width: 890px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Rechten {
+                position: absolute;
+                left: 67px;
+                top: 2100px;
+                bottom: 381px;
+                right: 1565px;
+                width: 890px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst9 {
+                position: absolute;
+                left: 67px;
+                top: 2140px;
+                bottom: 305px;
+                right: 415px;
+                width: 890px;
+                height: 106px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Klachten {
+                position: absolute;
+                left: 67px;
+                top: 2290px;
+                bottom: 254px;
+                right: 1741px;
+                width: 890px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst10 {
+                position: absolute;
+                left: 67px;
+                top: 2330px;
+                bottom: 186px;
+                right: 819px;
+                width: 890px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Wijziging {
+                position: absolute;
+                left: 67px;
+                top: 2480px;
+                bottom: 93px;
+                right: 1596px;
+                width: 890px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst11 {
+                position: absolute;
+                left: 67px;
+                top: 2520px;
+                bottom: 58px;
+                right: 963px;
+                width: 890px;
+                height: 59px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+    /* Aside */
+        /* Afbeeldingen */
+            .BBQ {
+                position: absolute;
+                left: 1027px;
+                top: 447px;
+                bottom: 274px;
+                right: 39px;
+                width: 300px;
+                height: 225px;
+            }
+
+            .Clubkampioenschap-Volwassenen {
+                position: absolute;
+                left: 1027px;
+                top: 730px;
+                bottom: 48px;
+                right: 39px;
+                width: 300px;
+                height: 225px;
+            }
+        /* Activiteiten */
+            .Activiteiten-Nieuwe-Titel {
+                position: absolute;
+                left: 1027px;
+                top: 190px;
+                bottom: 799px;
+                right: 11px;
+                width: 328px;
+                height: 74px;
+                font-family: "Inter-ExtraBold", Helvetica;
+                font-weight: 800;
+                color: #f97373;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+            }
+            
+            .Activiteiten-Nieuwe-Tekst {
+                position: absolute;
+                left: 1027px;
+                top: 240px;
+                bottom: 754px;
+                right: 18px;
+                width: 328px;
+                height: 60px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+            }
+            
+            .Activiteiten-Oude-Titel {
+                position: absolute;
+                left: 1027px;
+                top: 347px;
+                bottom: 657px;
+                right: 18px;
+                width: 328px;
+                height: 66px;
+                font-family: "Inter-ExtraBold", Helvetica;
+                font-weight: 800;
+                color: #f97373;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+            }
+            
+            .Activiteiten-Oude-Tekst1 {
+                position: absolute;
+                left: 1027px;
+                top: 397px;
+                bottom: 624px;
+                right: 18px;
+                width: 328px;
+                height: 48px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+            }
+
+            .Activiteiten-Oude-Tekst2 {
+                position: absolute;
+                left: 1027px;
+                top: 680px;
+                bottom: 342px;
+                right: 18px;
+                width: 328px;
+                height: 48px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+            }
+
+    /* Footer */
+        .footer {
+            text-align: center;
+            align-items: center;
+            margin-left: -8px;
+            margin-right: -8px;
+            margin-bottom: -16px;
+            margin-top: -16px;
+            border: none;
+            background-color: #514e4e;
+            padding: 20px;
+        }
+        
+        .Privacyverklaring-footer {
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: white;
+            Font-size: 16px;
+            text-decoration: none;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .Privacyverklaring-footer a {
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: white;
+            Font-size: 16px;
+            text-decoration: none;
+            align-items: center;
+        }
+
+    /* Extra pagina's */
+        .Start-To-Pingpong-nav {
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #f97373;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Kleutersport-nav {
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #f97373;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+}
+
+
+
+
+
+
+
+
+
+/* Maximale schermbreedte van 416 */
+@media screen and (max-width:416px)
+{
+    /* Algemeen */
+        .html {
+            scroll-behavior: smooth;
+        }
+        
+        .main {
+            height: 5700px;
+        }
+
+    /* Lijnen */
+        .Verticale-lijn {
+            position: absolute;
+            left: 25px;
+            right: 24px;
+            top: 136px;
+            bottom: 1660px;
+            border: none;
+            height: 3px;
+            background-color: #f97373;
+            margin: 20px 0;
+            width: 365px;
+        }
+        
+        .Horizontale-lijn {
+            position: absolute;
+            left: 25px;
+            right: 24px;
+            top: 4800px;
+            bottom: 878px;
+            border: none;
+            height: 3px;
+            background-color: #f97373;
+            margin: 20px 0;
+            width: 365px;
+        }
+
+    /* Header */
+        /* Afbeeldingen */
+        .Logo {
+            position: absolute;
+            left: 37px;
+            top: 57px;
+            bottom: 1695px;
+            right: 207px;
+            width: 170px;
+            height: 44px;
+        }
+        /* Navigatiebalk */
+            nav ul {
+                list-style-type: none;
+            }
+
+            .Welkom-nav-button,
+            .Ligging-nav-button,
+            .Contact-nav-button,
+            .Kalender-nav-button,
+            .Historiek-nav-button,
+            .Fotos-nav-button,
+            .Aansluiten-nav-button,
+            .Openingsuren-nav-button,
+            .Privacyverklaring-nav-button{
+                border: none;
+                background-color: transparent;
+                list-style-type:none;
+                margin-bottom: 10px;
+            }
+
+            .Welkom-nav-menu,
+            .Ligging-nav-menu,
+            .Contact-nav-menu,
+            .Kalender-nav-menu,
+            .Historiek-nav-menu,
+            .Fotos-nav-menu,
+            .Aansluiten-nav-menu,
+            .Openingsuren-nav-menu,
+            .Privacyverklaring-nav-menu{
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: white;
+                Font-size: 16px;
+                text-decoration: none;
+                border: none;
+                background-color: rgba(0, 0, 0, 0.8);
+                padding: 10px;
+                background-color: transparent;
+                margin: 0px;
+                list-style-type:none;
+            }
+
+            #fullscreen-menu {
+                list-style-type:none;
+                display: none;
+                position: absolute;
+                margin-left: -20px;
+                margin-right: 20px;;
+                left: 20px;
+                right: 20px;
+                top:50px;
+                width: 100%; /* Pas de breedte van het menu aan zoals gewenst */
+                max-width: 379px;
+                background-color: rgba(0, 0, 0, 0.8);
+                color:  rgba(0, 0, 0, 0.8);
+                z-index: 9999;
+                padding: 20px; /* Voeg wat ruimte en opvulling toe aan het menu */
+                border: none;
+            }
+            
+            #open-menu-button{
+                display: inline;
+                position: absolute;
+                top: 70px;
+                right: 20px;
+                border: none;
+                color: black;
+                font-size: 14px;
+                cursor: pointer;
+                background:none;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+            }
+
+            #close-menu-button {
+                display: inline;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                background: none;
+                border: none;
+                color: white;
+                font-size: 14px;
+                cursor: pointer;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+            }
+
+            .Welkom-nav,
+            .Ligging-nav,
+            .Contact-nav,
+            .Kalender-nav,
+            .Historiek-nav,
+            .Fotos-nav,
+            .Aansluiten-nav,
+            .Openingsuren-nav,
+            .Privacyverklaring-nav{
+                display: none;
+            }
+
+    /* Article */
+        /* Afbeeldingen */
+            
+        /* Privacyverklaring */
+            .Privacyverklaring-Titel {
+                position: absolute;
+                left: 67px;
+                top: 237px;
+                bottom: 1844px;
+                right: 1676px;
+                width: 300px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 20px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Algemeen {
+                position: absolute;
+                left: 67px;
+                top: 300px;
+                bottom: 1781px;
+                right: 1754px;
+                width: 300px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst1 {
+                position: absolute;
+                left: 67px;
+                top: 338px;
+                bottom: 1516px;
+                right: 415px;
+                width: 300px;
+                height: 292px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Waarom {
+                position: absolute;
+                left: 67px;
+                top: 1480px;
+                bottom: 1371px;
+                right: 1479px;
+                width: 300px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst2 {
+                position: absolute;
+                left: 67px;
+                top: 1530px;
+                bottom: 1307px;
+                right: 963px;
+                width: 300px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Welke {
+                position: absolute;
+                left: 67px;
+                top: 1770px;
+                bottom: 1238px;
+                right: 1562px;
+                width: 300px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst3 {
+                position: absolute;
+                left: 67px;
+                top: 1820px;
+                bottom: 1165px;
+                right: 877px;
+                width: 300px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Wie {
+                position: absolute;
+                left: 67px;
+                top: 2100px;
+                bottom: 1100px;
+                right: 1606px;
+                width: 300px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst4 {
+                position: absolute;
+                left: 67px;
+                top: 2150px;
+                bottom: 1022px;
+                right: 963px;
+                width: 300px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Verstrekking {
+                position: absolute;
+                left: 67px;
+                top: 2270px;
+                bottom: 975px;
+                right: 1622px;
+                width: 300px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst5 {
+                position: absolute;
+                left: 67px;
+                top: 2320px;
+                bottom: 900px;
+                right: 415px;
+                width: 300px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Minderjarigen {
+                position: absolute;
+                left: 67px;
+                top: 2980px;
+                bottom: 790px;
+                right: 1713px;
+                width: 300px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst6 {
+                position: absolute;
+                left: 67px;
+                top: 3030px;
+                bottom: 664px;
+                right: 531px;
+                width: 300px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Bewaartermijn {
+                position: absolute;
+                left: 67px;
+                top: 3150px;
+                bottom: 667px;
+                right: 1707px;
+                width: 300px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst7 {
+                position: absolute;
+                left: 67px;
+                top: 3200px;
+                bottom: 594px;
+                right: 457px;
+                width: 300px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Beveiliging {
+                position: absolute;
+                left: 67px;
+                top: 3340px;
+                bottom: 581px;
+                right: 1590px;
+                width: 300px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst8 {
+                position: absolute;
+                left: 67px;
+                top: 3390px;
+                bottom: 509px;
+                right: 700px;
+                width: 300px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Rechten {
+                position: absolute;
+                left: 67px;
+                top: 3900px;
+                bottom: 381px;
+                right: 1565px;
+                width: 300px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst9 {
+                position: absolute;
+                left: 67px;
+                top: 3950px;
+                bottom: 305px;
+                right: 415px;
+                width: 300px;
+                height: 106px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Klachten {
+                position: absolute;
+                left: 67px;
+                top: 4280px;
+                bottom: 254px;
+                right: 1741px;
+                width: 300px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst10 {
+                position: absolute;
+                left: 67px;
+                top: 4330px;
+                bottom: 186px;
+                right: 819px;
+                width: 300px;
+                height: 102px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Wijziging {
+                position: absolute;
+                left: 67px;
+                top: 4580px;
+                bottom: 93px;
+                right: 1596px;
+                width: 300px;
+                height: 65px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+            .Privacyverklaring-Tekst11 {
+                position: absolute;
+                left: 67px;
+                top: 4630px;
+                bottom: 58px;
+                right: 963px;
+                width: 300px;
+                height: 59px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                text-decoration: none;
+            }
+            
+    /* Aside */
+        /* Afbeeldingen */
+            .BBQ {
+                position: absolute;
+                left: 62px;
+                top: 5140px;
+                bottom: 347px;
+                right: 52px;
+                width: 300px;
+                height: 225px;
+            }
+
+            .Clubkampioenschap-Volwassenen {
+                position: absolute;
+                left: 62px;
+                top: 5430px;
+                bottom: 65px;
+                right: 52px;
+                width: 300px;
+                height: 225px;
+            }
+        /* Activiteiten */
+            .Activiteiten-Nieuwe-Titel {
+                position: absolute;
+                left: 136px;
+                top: 4900px;
+                bottom: 756px;
+                right: 114px;
+                width: 164px;
+                height: 74px;
+                font-family: "Inter-ExtraBold", Helvetica;
+                font-weight: 800;
+                color: #f97373;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+            }
+            
+            .Activiteiten-Nieuwe-Tekst {
+                position: absolute;
+                left: 122px;
+                top: 4940px;
+                bottom: 713px;
+                right: 70px;
+                width: 222px;
+                height: 60px;
+                font-family: "Inter-Regular", Helvetica;
+                font-weight: 400;
+                color: #000000;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+                text-align: left;
+            }
+            
+            .Activiteiten-Oude-Titel {
+                position: absolute;
+                left: 136px;
+                top: 5040px;
+                bottom: 606px;
+                right: 114px;
+                width: 164px;
+                height: 66px;
+                font-family: "Inter-ExtraBold", Helvetica;
+                font-weight: 800;
+                color: #f97373;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+            }
+            
+            .Activiteiten-Oude-Tekst1 {
+                position: absolute;
+                left: 56px;
+                top: 5090px;
+                bottom: 572px;
+                right: 30px;
+                width: 328px;
+                height: 48px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+                text-align: center;
+            }
+
+            .Activiteiten-Oude-Tekst2 {
+                position: absolute;
+                left: 72px;
+                top: 5380px;
+                bottom: 290px;
+                right: 24px;
+                width: 328px;
+                height: 48px;
+                font-family: "Inter-Bold", Helvetica;
+                font-weight: 700;
+                color: #000000;
+                Font-size: 16px;
+                letter-spacing: 0;
+                line-height: normal;
+            }
+
+    /* Footer */
+        .footer {
+            text-align: center;
+            align-items: center;
+            margin-left: -8px;
+            margin-right: -8px;
+            margin-bottom: -16px;
+            margin-top: -16px;
+            border: none;
+            background-color: #514e4e;
+            padding: 20px;
+        }
+        
+        .Privacyverklaring-footer {
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: white;
+            Font-size: 16px;
+            text-decoration: none;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .Privacyverklaring-footer a {
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: white;
+            Font-size: 16px;
+            text-decoration: none;
+            align-items: center;
+        }
+
+    /* Extra pagina's */
+        .Start-To-Pingpong-nav {
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #f97373;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .Kleutersport-nav {
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700;
+            color: #f97373;
+            Font-size: 16px;
+            text-decoration: none;
+        }
+}
+
